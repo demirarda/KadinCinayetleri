@@ -1,0 +1,670 @@
+[
+    {
+        "id": 1,
+        "howKilled": "Ateşli Silah"
+    },
+    {
+        "id": 2,
+        "howKilled": "Kesici Alet"
+    },
+    {
+        "id": 3,
+        "howKilled": "Darp"
+    },
+    {
+        "id": 4,
+        "howKilled": "Yüksekten Düşme"
+    },
+    {
+        "id": 5,
+        "howKilled": "Tespit Edilemeyen"
+    },
+    {
+        "id": 6,
+        "howKilled": "Vurucu Alet"
+    },
+    {
+        "id": 7,
+        "howKilled": "Araba Kazası"
+    },
+    {
+        "id": 8,
+        "howKilled": "Boğularak"
+    },
+    {
+        "id": 9,
+        "howKilled": "Yüksek Dozda Uyuşturucu"
+    },
+    {
+        "id": 10,
+        "howKilled": "Darp, Boğularak"
+    },
+    {
+        "id": 11,
+        "howKilled": "Kimyasal Sıvı"
+    },
+    {
+        "id": 12,
+        "howKilled": "Yakılarak"
+    },
+    {
+        "id": 13,
+        "howKilled": "Kesici Alet, Darp"
+    },
+    {
+        "id": 14,
+        "howKilled": "Yüksekten Düşme, Kesici Alet"
+    },
+    {
+        "id": 15,
+        "howKilled": "Boğulma"
+    },
+    {
+        "id": 16,
+        "howKilled": "Boğulma, Kesici Alet"
+    },
+    {
+        "id": 17,
+        "howKilled": "Kesicİ Alet"
+    },
+    {
+        "id": 18,
+        "howKilled": "Sert Cisim"
+    },
+    {
+        "id": 19,
+        "howKilled": "Tecavüz, Boğulma"
+    },
+    {
+        "id": 20,
+        "howKilled": "İntihar"
+    },
+    {
+        "id": 21,
+        "howKilled": "Asılma"
+    },
+    {
+        "id": 22,
+        "howKilled": "Kesici Aelt"
+    },
+    {
+        "id": 23,
+        "howKilled": "Asılarak"
+    },
+    {
+        "id": 24,
+        "howKilled": "Ezilerek"
+    },
+    {
+        "id": 25,
+        "howKilled": "Ezilme, Darp"
+    },
+    {
+        "id": 26,
+        "howKilled": "Arabadan Atma"
+    },
+    {
+        "id": 27,
+        "howKilled": "Kesici Alet, Ateşli Silah"
+    },
+    {
+        "id": 28,
+        "howKilled": "Kesici alet"
+    },
+    {
+        "id": 29,
+        "howKilled": "Yüksekten Düşme, İntihar"
+    },
+    {
+        "id": 30,
+        "howKilled": "Darp, İşkence"
+    },
+    {
+        "id": 31,
+        "howKilled": "Darp, Yakma"
+    },
+    {
+        "id": 32,
+        "howKilled": "Yüksekten Düşerek"
+    },
+    {
+        "id": 33,
+        "howKilled": "Kesici Alet, Boğma"
+    },
+    {
+        "id": 34,
+        "howKilled": "Darb"
+    },
+    {
+        "id": 35,
+        "howKilled": "Darp, Ateşli Silah"
+    },
+    {
+        "id": 36,
+        "howKilled": "Kesici Alet, Darp, İşkence"
+    },
+    {
+        "id": 37,
+        "howKilled": "Yanma"
+    },
+    {
+        "id": 38,
+        "howKilled": "Ezilme"
+    },
+    {
+        "id": 39,
+        "howKilled": "Kesici Alet, İşkence"
+    },
+    {
+        "id": 40,
+        "howKilled": "Boğarak"
+    },
+    {
+        "id": 41,
+        "howKilled": "Yakılma"
+    },
+    {
+        "id": 42,
+        "howKilled": "Tespit Edilmeyen"
+    },
+    {
+        "id": 43,
+        "howKilled": "Yanarak"
+    },
+    {
+        "id": 44,
+        "howKilled": "Yakılmış"
+    },
+    {
+        "id": 45,
+        "howKilled": "Yüsekten Düşerek"
+    },
+    {
+        "id": 46,
+        "howKilled": "Kesici Alet, Yakma"
+    },
+    {
+        "id": 47,
+        "howKilled": "Kesivci Alet"
+    },
+    {
+        "id": 48,
+        "howKilled": "Darp, Yanma"
+    },
+    {
+        "id": 49,
+        "howKilled": "Darp, Kesici Alet"
+    },
+    {
+        "id": 50,
+        "howKilled": "Düşme"
+    },
+    {
+        "id": 51,
+        "howKilled": "Uyuşturucu"
+    },
+    {
+        "id": 52,
+        "howKilled": "Yakılarak Öldürüldü"
+    },
+    {
+        "id": 53,
+        "howKilled": "Atesli Silah"
+    },
+    {
+        "id": 54,
+        "howKilled": "Boğularak, Darp, Yakılma"
+    },
+    {
+        "id": 55,
+        "howKilled": "Yüksektedn Düşme"
+    },
+    {
+        "id": 56,
+        "howKilled": "Darp, Asılarak"
+    },
+    {
+        "id": 57,
+        "howKilled": "Darp, Yüksekten Düşme"
+    },
+    {
+        "id": 58,
+        "howKilled": "Asma, Nefessiz Kalma"
+    },
+    {
+        "id": 59,
+        "howKilled": "Tespit Edilemeye"
+    },
+    {
+        "id": 60,
+        "howKilled": "Darp, cinsel saldırı, zehirlenme"
+    },
+    {
+        "id": 61,
+        "howKilled": "Boğulma, Darp"
+    },
+    {
+        "id": 62,
+        "howKilled": "Darp, Yakılma"
+    },
+    {
+        "id": 63,
+        "howKilled": "Ateşli Silah, Darp"
+    },
+    {
+        "id": 64,
+        "howKilled": "Balkondan Düşme"
+    },
+    {
+        "id": 65,
+        "howKilled": "Yüksekten Atlama"
+    },
+    {
+        "id": 66,
+        "howKilled": "Zehirlenme"
+    },
+    {
+        "id": 67,
+        "howKilled": "İlaç"
+    },
+    {
+        "id": 68,
+        "howKilled": "Ateşli Madde"
+    },
+    {
+        "id": 69,
+        "howKilled": "Darp, Boğulma, Kesici Alet"
+    },
+    {
+        "id": 70,
+        "howKilled": "Ateşli Sialh"
+    },
+    {
+        "id": 71,
+        "howKilled": "Kesici Alet, darp, boğma"
+    },
+    {
+        "id": 72,
+        "howKilled": "Kesici, Delici Alet"
+    },
+    {
+        "id": 73,
+        "howKilled": "Ateşl Silah"
+    },
+    {
+        "id": 74,
+        "howKilled": "Yüksekten Atma"
+    },
+    {
+        "id": 75,
+        "howKilled": "Vurucu Alet, Kesici Alet"
+    },
+    {
+        "id": 76,
+        "howKilled": "Boğularak, Darp"
+    },
+    {
+        "id": 77,
+        "howKilled": "Aç bırakılma, İltihap"
+    },
+    {
+        "id": 78,
+        "howKilled": "Boğulma, Yüksekten Atma"
+    },
+    {
+        "id": 79,
+        "howKilled": "İşkence"
+    },
+    {
+        "id": 80,
+        "howKilled": "Balkondan düşme"
+    },
+    {
+        "id": 81,
+        "howKilled": "Ateşli Silah, Kesici Alet"
+    },
+    {
+        "id": 82,
+        "howKilled": "Darp, Boğma, Yakma"
+    },
+    {
+        "id": 83,
+        "howKilled": "Belirtilmemiş"
+    },
+    {
+        "id": 84,
+        "howKilled": "Yakılma, Darp"
+    },
+    {
+        "id": 85,
+        "howKilled": "Tespit Edilemyen"
+    },
+    {
+        "id": 86,
+        "howKilled": "Tespite Edilemeyen"
+    },
+    {
+        "id": 87,
+        "howKilled": "Boğullarak"
+    },
+    {
+        "id": 88,
+        "howKilled": "Vurucu Darbe"
+    },
+    {
+        "id": 89,
+        "howKilled": "Bilinmiyor"
+    },
+    {
+        "id": 90,
+        "howKilled": "Boğularak, Tecavüz, Darp"
+    },
+    {
+        "id": 91,
+        "howKilled": "Tazzikli Su"
+    },
+    {
+        "id": 92,
+        "howKilled": "Ateşi Silah"
+    },
+    {
+        "id": 93,
+        "howKilled": "Yüksekten İtilme"
+    },
+    {
+        "id": 94,
+        "howKilled": "Boğularak, Yakılarak"
+    },
+    {
+        "id": 95,
+        "howKilled": "Darp, İtme"
+    },
+    {
+        "id": 96,
+        "howKilled": "Darp, Vurucu Alet"
+    },
+    {
+        "id": 97,
+        "howKilled": "Uçurumdan düşme"
+    },
+    {
+        "id": 98,
+        "howKilled": "Camdan İtilerek"
+    },
+    {
+        "id": 99,
+        "howKilled": "Boğma"
+    },
+    {
+        "id": 100,
+        "howKilled": "Kesici Alet, Yanma"
+    },
+    {
+        "id": 101,
+        "howKilled": "Ateşili Silah"
+    },
+    {
+        "id": 102,
+        "howKilled": "Tecavüz, Yardım etmeme"
+    },
+    {
+        "id": 103,
+        "howKilled": "Boğma, Kesici Alet"
+    },
+    {
+        "id": 104,
+        "howKilled": "Ateşi Silah, Darp"
+    },
+    {
+        "id": 105,
+        "howKilled": "Kesici Alet, Düşme"
+    },
+    {
+        "id": 106,
+        "howKilled": "Darp, Kesici Alet, İşkence"
+    },
+    {
+        "id": 107,
+        "howKilled": "Zehirlenerek"
+    },
+    {
+        "id": 108,
+        "howKilled": "Yüksekten Atılarak"
+    },
+    {
+        "id": 109,
+        "howKilled": "Tecavüz, Elle Boğma"
+    },
+    {
+        "id": 110,
+        "howKilled": "Zorla Uçurumdan Atma"
+    },
+    {
+        "id": 111,
+        "howKilled": "Darp, Elektrik verme"
+    },
+    {
+        "id": 112,
+        "howKilled": "Darp, Elektrik Verme"
+    },
+    {
+        "id": 113,
+        "howKilled": "Boğularak, Kesici Alet"
+    },
+    {
+        "id": 114,
+        "howKilled": "DarP"
+    },
+    {
+        "id": 115,
+        "howKilled": "Çarpma Sonucu"
+    },
+    {
+        "id": 116,
+        "howKilled": "Ateşlil Silah"
+    },
+    {
+        "id": 117,
+        "howKilled": "Aletle Boğma"
+    },
+    {
+        "id": 118,
+        "howKilled": "Seyir halindeki otomobilden atılarak"
+    },
+    {
+        "id": 119,
+        "howKilled": "Delici, Kesici Alet"
+    },
+    {
+        "id": 120,
+        "howKilled": "Vurucu Silah"
+    },
+    {
+        "id": 121,
+        "howKilled": "Darp, Boğulma"
+    },
+    {
+        "id": 122,
+        "howKilled": "Dövme, Darp"
+    },
+    {
+        "id": 123,
+        "howKilled": "Darp, Boğma"
+    },
+    {
+        "id": 124,
+        "howKilled": "Otopsi Yapılıcak"
+    },
+    {
+        "id": 125,
+        "howKilled": "Dövme, Ezilme"
+    },
+    {
+        "id": 126,
+        "howKilled": "Dövülme"
+    },
+    {
+        "id": 127,
+        "howKilled": "Keskin Alet"
+    },
+    {
+        "id": 128,
+        "howKilled": "Vurucu, Kesici Alet"
+    },
+    {
+        "id": 129,
+        "howKilled": "Kafa Travması"
+    },
+    {
+        "id": 130,
+        "howKilled": "Düşma, Atılma"
+    },
+    {
+        "id": 131,
+        "howKilled": "Kesici, Vurucu Alet"
+    },
+    {
+        "id": 132,
+        "howKilled": "Yüksek Bir Kattan Düşerek"
+    },
+    {
+        "id": 133,
+        "howKilled": "Kesici Alet, Vurucu Alet"
+    },
+    {
+        "id": 134,
+        "howKilled": "Dayak"
+    },
+    {
+        "id": 135,
+        "howKilled": "Dövme, Vurucu Silah"
+    },
+    {
+        "id": 136,
+        "howKilled": "Dövme, Vurma"
+    },
+    {
+        "id": 137,
+        "howKilled": "Ateşli SIlah"
+    },
+    {
+        "id": 138,
+        "howKilled": "Belirtilmemeş"
+    },
+    {
+        "id": 139,
+        "howKilled": "Darp, Vurucu Silah"
+    },
+    {
+        "id": 140,
+        "howKilled": "Ateşli Silah, Yanma"
+    },
+    {
+        "id": 141,
+        "howKilled": "Elektrik Akımı"
+    },
+    {
+        "id": 142,
+        "howKilled": "İtilme"
+    },
+    {
+        "id": 143,
+        "howKilled": "Kesici Silah"
+    },
+    {
+        "id": 144,
+        "howKilled": "Bıçaklama"
+    },
+    {
+        "id": 145,
+        "howKilled": "Bıçaklama, Ateşli Silah"
+    },
+    {
+        "id": 146,
+        "howKilled": "Dövme"
+    },
+    {
+        "id": 147,
+        "howKilled": "Ateşli Silah, Bıçaklama"
+    },
+    {
+        "id": 148,
+        "howKilled": "Yakma"
+    },
+    {
+        "id": 149,
+        "howKilled": "Ateşli silah"
+    },
+    {
+        "id": 150,
+        "howKilled": "Boğma, Dövülme"
+    },
+    {
+        "id": 151,
+        "howKilled": "Bıçalama"
+    },
+    {
+        "id": 152,
+        "howKilled": "Atılma"
+    },
+    {
+        "id": 153,
+        "howKilled": "Dövülme, İşkence"
+    },
+    {
+        "id": 154,
+        "howKilled": "Darp, Bıçaklama"
+    },
+    {
+        "id": 155,
+        "howKilled": "Dövülme, Bıçaklama"
+    },
+    {
+        "id": 156,
+        "howKilled": " "
+    },
+    {
+        "id": 157,
+        "howKilled": "Yüksekten Düşma"
+    },
+    {
+        "id": 158,
+        "howKilled": "Bıçaklanma"
+    },
+    {
+        "id": 159,
+        "howKilled": "Darp, Elle Boğulma"
+    },
+    {
+        "id": 160,
+        "howKilled": "Kesici Alt"
+    },
+    {
+        "id": 161,
+        "howKilled": "Bıçakla"
+    },
+    {
+        "id": 162,
+        "howKilled": "Tüfekle"
+    },
+    {
+        "id": 163,
+        "howKilled": "Yüksek Yerden Düşme"
+    },
+    {
+        "id": 164,
+        "howKilled": "Tespit EdilemeyenBilinmiyor"
+    },
+    {
+        "id": 165,
+        "howKilled": "Kesici Alet, Ezme"
+    },
+    {
+        "id": 166,
+        "howKilled": "Darp, İşkence"
+    },
+    {
+        "id": 167,
+        "howKilled": "Atlama (Şüpheli Ölüm)"
+    }
+]

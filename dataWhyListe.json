@@ -1,0 +1,1330 @@
+[
+    {
+        "id": 1,
+        "why": "Reddedilme"
+    },
+    {
+        "id": 2,
+        "why": "Kıskançlık"
+    },
+    {
+        "id": 3,
+        "why": "Tartışma"
+    },
+    {
+        "id": 4,
+        "why": "Tespit Edilemeyen"
+    },
+    {
+        "id": 5,
+        "why": "Tartışma, Boşanma Talebi"
+    },
+    {
+        "id": 6,
+        "why": "Boşanma Talebi"
+    },
+    {
+        "id": 7,
+        "why": "Kız Kardeşini Korurken"
+    },
+    {
+        "id": 8,
+        "why": "Kardeşinin Karısını Korumya Çalışırken"
+    },
+    {
+        "id": 9,
+        "why": "Kıskançlık, Tartışma"
+    },
+    {
+        "id": 10,
+        "why": "Boşanma Talebi, Reddedilme"
+    },
+    {
+        "id": 11,
+        "why": "Reddedilme, Terkedilme"
+    },
+    {
+        "id": 12,
+        "why": "Boşanma Talebi, Tartışma"
+    },
+    {
+        "id": 13,
+        "why": "Namus"
+    },
+    {
+        "id": 14,
+        "why": "Husumet"
+    },
+    {
+        "id": 15,
+        "why": "Tespit Edllemeyen"
+    },
+    {
+        "id": 16,
+        "why": "Kardeşini Korumaya Çalışırken"
+    },
+    {
+        "id": 17,
+        "why": "Maganda Kurşunu"
+    },
+    {
+        "id": 18,
+        "why": "Kızını Korurken"
+    },
+    {
+        "id": 19,
+        "why": "Tartışma, Gürültü"
+    },
+    {
+        "id": 20,
+        "why": "Karısıyla Anlaşmazlık"
+    },
+    {
+        "id": 21,
+        "why": "Ayrılma Talebi"
+    },
+    {
+        "id": 22,
+        "why": "Tartışma,  Boşanma Aşaması"
+    },
+    {
+        "id": 23,
+        "why": "Kız kardeşini korurken"
+    },
+    {
+        "id": 24,
+        "why": "Boşanma Aşaması, Tartışma"
+    },
+    {
+        "id": 25,
+        "why": "Tartışma, Reddedilme"
+    },
+    {
+        "id": 26,
+        "why": "Tartışma, Boşanma Aşaması"
+    },
+    {
+        "id": 27,
+        "why": "Tartışma, Aldatma Şüphesi"
+    },
+    {
+        "id": 28,
+        "why": "Sürekli Şiddet Tehdidi"
+    },
+    {
+        "id": 29,
+        "why": "Kaza"
+    },
+    {
+        "id": 30,
+        "why": "Kızını Korurken, Tartışma"
+    },
+    {
+        "id": 31,
+        "why": "Tartışma, Kıskançlık"
+    },
+    {
+        "id": 32,
+        "why": "Namus Cinayeti"
+    },
+    {
+        "id": 33,
+        "why": "Aldatma Şüphesi"
+    },
+    {
+        "id": 34,
+        "why": "Büyü Yaptığına İnandığı İçin"
+    },
+    {
+        "id": 35,
+        "why": "İntiharı Engellemeye Çalışırken"
+    },
+    {
+        "id": 36,
+        "why": "Aldatılma"
+    },
+    {
+        "id": 37,
+        "why": "Para"
+    },
+    {
+        "id": 38,
+        "why": "Cin Çıkartma"
+    },
+    {
+        "id": 39,
+        "why": "Bir Kadını Korumaya Çalışırken"
+    },
+    {
+        "id": 40,
+        "why": "Reddedilme, Tartışma"
+    },
+    {
+        "id": 41,
+        "why": "Erkek Kardeşini İkna Etmeye Çalışırken"
+    },
+    {
+        "id": 42,
+        "why": "Kızını Damadından Korurken"
+    },
+    {
+        "id": 43,
+        "why": "Tespit Edilmeyen"
+    },
+    {
+        "id": 44,
+        "why": "Babasını İntihardan Korumaya Çalışırken"
+    },
+    {
+        "id": 45,
+        "why": "Evlilik Teklifini Reddetme"
+    },
+    {
+        "id": 46,
+        "why": "Miras"
+    },
+    {
+        "id": 47,
+        "why": "Husumet, Tartışma"
+    },
+    {
+        "id": 48,
+        "why": "Kavgayı Ayırırken"
+    },
+    {
+        "id": 49,
+        "why": "Tespit Edilemeyene"
+    },
+    {
+        "id": 50,
+        "why": "Kızkardeşini Korurken"
+    },
+    {
+        "id": 51,
+        "why": "Nefret Cinayeti"
+    },
+    {
+        "id": 52,
+        "why": "Boşanma Talebi, Nafaka"
+    },
+    {
+        "id": 53,
+        "why": "Yemek yemek istememesi"
+    },
+    {
+        "id": 54,
+        "why": "Tespit  Edilemeyen"
+    },
+    {
+        "id": 55,
+        "why": "Töre Cinayeti"
+    },
+    {
+        "id": 56,
+        "why": "Tehdit"
+    },
+    {
+        "id": 57,
+        "why": "Boşanma"
+    },
+    {
+        "id": 58,
+        "why": "Kira konusunda anlaşmazlık"
+    },
+    {
+        "id": 59,
+        "why": "Boşanma Aşaması"
+    },
+    {
+        "id": 60,
+        "why": "Evlenmek İstememesi"
+    },
+    {
+        "id": 61,
+        "why": "Hakaret"
+    },
+    {
+        "id": 62,
+        "why": "Gasp"
+    },
+    {
+        "id": 63,
+        "why": "Reddedilme, Kıskançlık"
+    },
+    {
+        "id": 64,
+        "why": "Tartışma, Kızını Korumaya Çalışırken"
+    },
+    {
+        "id": 65,
+        "why": "Cinsel Saldırı"
+    },
+    {
+        "id": 66,
+        "why": "Tartışma, Nefret"
+    },
+    {
+        "id": 67,
+        "why": "Nefret"
+    },
+    {
+        "id": 68,
+        "why": "Kendi Hayatına Devam Etmek İstemesi"
+    },
+    {
+        "id": 69,
+        "why": "Uyuşturucu, Geçimsizlik"
+    },
+    {
+        "id": 70,
+        "why": "Kavgayı Ayırmaya Çalışırken"
+    },
+    {
+        "id": 71,
+        "why": "Tespi Edilemeyen"
+    },
+    {
+        "id": 72,
+        "why": "Aldatma"
+    },
+    {
+        "id": 73,
+        "why": "Karısını Cezalandırmak İçin"
+    },
+    {
+        "id": 74,
+        "why": "Miras Kavgası"
+    },
+    {
+        "id": 75,
+        "why": "Boğularak"
+    },
+    {
+        "id": 76,
+        "why": "Tespit Edilemyen"
+    },
+    {
+        "id": 77,
+        "why": "Husemet"
+    },
+    {
+        "id": 78,
+        "why": "Para, Cinsel Saldıri"
+    },
+    {
+        "id": 79,
+        "why": "Tartşma"
+    },
+    {
+        "id": 80,
+        "why": "Tespit Edielemeyen"
+    },
+    {
+        "id": 81,
+        "why": "Velayetin Anneye Verilmesi"
+    },
+    {
+        "id": 82,
+        "why": "Husumet, Para"
+    },
+    {
+        "id": 83,
+        "why": "Annesini Korurken"
+    },
+    {
+        "id": 84,
+        "why": "Akrabasını Korurken"
+    },
+    {
+        "id": 85,
+        "why": "Reddetme"
+    },
+    {
+        "id": 86,
+        "why": "Reddedilm"
+    },
+    {
+        "id": 87,
+        "why": "Boşanma Talebi, Reddedilm"
+    },
+    {
+        "id": 88,
+        "why": "Tespit Edilemeyen, Reddedilme"
+    },
+    {
+        "id": 89,
+        "why": "Kızını Korurken, Tartışma"
+    },
+    {
+        "id": 90,
+        "why": "İhanet"
+    },
+    {
+        "id": 91,
+        "why": "Tepsit Edilemeyen"
+    },
+    {
+        "id": 92,
+        "why": "Alacak Meselesi"
+    },
+    {
+        "id": 93,
+        "why": "Ayrılma Talebi, Tartışma"
+    },
+    {
+        "id": 94,
+        "why": "Tecavüz"
+    },
+    {
+        "id": 95,
+        "why": "Olası Kast ile Adam Öldürmek"
+    },
+    {
+        "id": 96,
+        "why": "Tartışma, Husumet"
+    },
+    {
+        "id": 97,
+        "why": "Tehdit, Kin"
+    },
+    {
+        "id": 98,
+        "why": "Erkekliğine Küfür Etmesi"
+    },
+    {
+        "id": 99,
+        "why": "Tartışma, Velayatin Anneye Verilmesi"
+    },
+    {
+        "id": 100,
+        "why": "Tartışma, Miras"
+    },
+    {
+        "id": 101,
+        "why": "Tartışma, Kızını Korurken"
+    },
+    {
+        "id": 102,
+        "why": "Tartışma, Ayrılma Talebi"
+    },
+    {
+        "id": 103,
+        "why": "Kaza, Terkedilme"
+    },
+    {
+        "id": 104,
+        "why": "Para,Tartışma"
+    },
+    {
+        "id": 105,
+        "why": "Aldatma, Boşanma Talebi"
+    },
+    {
+        "id": 106,
+        "why": "Bakımsız Olması"
+    },
+    {
+        "id": 107,
+        "why": "Hasta Olduğu İçin"
+    },
+    {
+        "id": 108,
+        "why": "Evden Kaçma"
+    },
+    {
+        "id": 109,
+        "why": "Maddi Sıkıntı"
+    },
+    {
+        "id": 110,
+        "why": "Alzheimar Hastası Olduğu İçin"
+    },
+    {
+        "id": 111,
+        "why": "Kumayı Reddetme"
+    },
+    {
+        "id": 112,
+        "why": "Eşinin kuma getirmesini reddettiği için"
+    },
+    {
+        "id": 113,
+        "why": "Tartışma, Kız kardeşini korumaya çalışırken"
+    },
+    {
+        "id": 114,
+        "why": "Boşanm Talebi"
+    },
+    {
+        "id": 115,
+        "why": "Hırsızlık"
+    },
+    {
+        "id": 116,
+        "why": "Tartışma, Bir kadını korurken"
+    },
+    {
+        "id": 117,
+        "why": "Tespit Edilemeyn"
+    },
+    {
+        "id": 118,
+        "why": "Tarışma"
+    },
+    {
+        "id": 119,
+        "why": "Yasak İlişki"
+    },
+    {
+        "id": 120,
+        "why": "Tartışma, Barışma Talebi"
+    },
+    {
+        "id": 121,
+        "why": "Gelinini korumaya çalışırken"
+    },
+    {
+        "id": 122,
+        "why": "Barışma Talebi"
+    },
+    {
+        "id": 123,
+        "why": "KıskançlıK"
+    },
+    {
+        "id": 124,
+        "why": "Kendi hayatına karar vermek istediği için"
+    },
+    {
+        "id": 125,
+        "why": "Ölmek istemesi"
+    },
+    {
+        "id": 126,
+        "why": "Alzheimar hastası olmak"
+    },
+    {
+        "id": 127,
+        "why": "Kızını korumaya çalışırken"
+    },
+    {
+        "id": 128,
+        "why": "Kız kardeşini korumaya çalışırken"
+    },
+    {
+        "id": 129,
+        "why": "Haset"
+    },
+    {
+        "id": 130,
+        "why": "Tatışma"
+    },
+    {
+        "id": 131,
+        "why": "Öfke"
+    },
+    {
+        "id": 132,
+        "why": "Bir kızı tacizden koruduğu için"
+    },
+    {
+        "id": 133,
+        "why": "Hayatına Dair Karar Alma"
+    },
+    {
+        "id": 134,
+        "why": "Namas"
+    },
+    {
+        "id": 135,
+        "why": "Miras kavgası"
+    },
+    {
+        "id": 136,
+        "why": "Eve Geç Gelmesi"
+    },
+    {
+        "id": 137,
+        "why": "Tespit Edileyen"
+    },
+    {
+        "id": 138,
+        "why": "Kız Kaçırma, Tartışma"
+    },
+    {
+        "id": 139,
+        "why": "Tartışma, Kaza"
+    },
+    {
+        "id": 140,
+        "why": "Tespit Edllmeyen"
+    },
+    {
+        "id": 141,
+        "why": "Reddedilme, Ayrılma Talebi"
+    },
+    {
+        "id": 142,
+        "why": "Aldatılma Şüphesi"
+    },
+    {
+        "id": 143,
+        "why": "Tespite Edilemeyen"
+    },
+    {
+        "id": 144,
+        "why": "Nusabin"
+    },
+    {
+        "id": 145,
+        "why": "Tespit Edlemeyen"
+    },
+    {
+        "id": 146,
+        "why": "Reddedlme"
+    },
+    {
+        "id": 147,
+        "why": "Reddedilme,Boşanma Talebi"
+    },
+    {
+        "id": 148,
+        "why": "Tespit Edliemeyen"
+    },
+    {
+        "id": 149,
+        "why": "Bilinmiyor"
+    },
+    {
+        "id": 150,
+        "why": "Reddedllme"
+    },
+    {
+        "id": 151,
+        "why": "Tespit Edileyemeyn"
+    },
+    {
+        "id": 152,
+        "why": "Annesinin eski sevgilisini reddetmesi"
+    },
+    {
+        "id": 153,
+        "why": "Tartıştı"
+    },
+    {
+        "id": 154,
+        "why": "İntihar"
+    },
+    {
+        "id": 155,
+        "why": "Tartışms"
+    },
+    {
+        "id": 156,
+        "why": "Kendi hayatın karar vermek istediği için"
+    },
+    {
+        "id": 157,
+        "why": "Belirtilmemiş"
+    },
+    {
+        "id": 158,
+        "why": "Tartışma, Kışkançlık"
+    },
+    {
+        "id": 159,
+        "why": "Boşanma Talebi, Kendi hayatına karar vermek istemesiReşit"
+    },
+    {
+        "id": 160,
+        "why": "Annesinin Boşanma Talebi"
+    },
+    {
+        "id": 161,
+        "why": "Para, Tartışma"
+    },
+    {
+        "id": 162,
+        "why": "Ayrılma Talebi, Kıskançlık"
+    },
+    {
+        "id": 163,
+        "why": "Boşanmayı Sindirememesi"
+    },
+    {
+        "id": 164,
+        "why": "Geçimsizlik"
+    },
+    {
+        "id": 165,
+        "why": "İntikam"
+    },
+    {
+        "id": 166,
+        "why": "Karısınla arkadaşlık ettiği için"
+    },
+    {
+        "id": 167,
+        "why": "Rededilme"
+    },
+    {
+        "id": 168,
+        "why": "Kızkardeşini korurken"
+    },
+    {
+        "id": 169,
+        "why": "Kendi Hayatına Karar Vermek Istediği İçin, Namus"
+    },
+    {
+        "id": 170,
+        "why": "Aldatılma İddiası"
+    },
+    {
+        "id": 171,
+        "why": "Kızını Korurken"
+    },
+    {
+        "id": 172,
+        "why": "Tartışµa"
+    },
+    {
+        "id": 173,
+        "why": "Arkadaşlık Teklifini Red Etmesi"
+    },
+    {
+        "id": 174,
+        "why": "Arkadaşını Korurken"
+    },
+    {
+        "id": 175,
+        "why": "Kendi Hayatına Karar Verdiği İçin"
+    },
+    {
+        "id": 176,
+        "why": "Barışmak İstememesi"
+    },
+    {
+        "id": 177,
+        "why": "Kaza Kurşunu"
+    },
+    {
+        "id": 178,
+        "why": "Başka bir kadını korumak isterken"
+    },
+    {
+        "id": 179,
+        "why": "Boşanma Talebi, Şiddet"
+    },
+    {
+        "id": 180,
+        "why": "Tartışma, Kavga"
+    },
+    {
+        "id": 181,
+        "why": "Kızını Görme Talebi"
+    },
+    {
+        "id": 182,
+        "why": "Kendi Hayatına Dair Karar Almak İstediği İçin"
+    },
+    {
+        "id": 183,
+        "why": "Kız İsteme"
+    },
+    {
+        "id": 184,
+        "why": "Barışma İsteğini Reddetme"
+    },
+    {
+        "id": 185,
+        "why": "Silahını Temizlerken"
+    },
+    {
+        "id": 186,
+        "why": "Tespit Edilemeyent"
+    },
+    {
+        "id": 187,
+        "why": "Geçimsizlik, Tartışma"
+    },
+    {
+        "id": 188,
+        "why": "Tecavüzü Reddetme"
+    },
+    {
+        "id": 189,
+        "why": "Mal paylaşımı"
+    },
+    {
+        "id": 190,
+        "why": "Mal Paylaşımı"
+    },
+    {
+        "id": 191,
+        "why": "Arkadaşlarıyla Mesajlaşma"
+    },
+    {
+        "id": 192,
+        "why": "Kavga"
+    },
+    {
+        "id": 193,
+        "why": "Reddedilme, Namus"
+    },
+    {
+        "id": 194,
+        "why": "Mal Tartışması"
+    },
+    {
+        "id": 195,
+        "why": "Tartışma, Namus"
+    },
+    {
+        "id": 196,
+        "why": "Torununun sevgilisinin ayrılmayı kabul edememesi"
+    },
+    {
+        "id": 197,
+        "why": "Boşanmba Talebi"
+    },
+    {
+        "id": 198,
+        "why": "Oğlunu korurken"
+    },
+    {
+        "id": 199,
+        "why": "Annesiyle görüşmesi"
+    },
+    {
+        "id": 200,
+        "why": "Boşanmasına sebeb olduğuna inanması"
+    },
+    {
+        "id": 201,
+        "why": "İlişkisi olması"
+    },
+    {
+        "id": 202,
+        "why": "Ailevi Nedenler"
+    },
+    {
+        "id": 203,
+        "why": "Reddettme, Kıskançlık"
+    },
+    {
+        "id": 204,
+        "why": "Miras Husumeti"
+    },
+    {
+        "id": 205,
+        "why": "Ayrılma"
+    },
+    {
+        "id": 206,
+        "why": "Ailesinden İzinsiz Evlendiği İçin"
+    },
+    {
+        "id": 207,
+        "why": "Annenin Kızlarını Öldürmesi"
+    },
+    {
+        "id": 208,
+        "why": "Kızlarını Öldürdüğü İçin"
+    },
+    {
+        "id": 209,
+        "why": "İntikam (yanlış kişiyi vurdu)"
+    },
+    {
+        "id": 210,
+        "why": "Barışma Talebini Reddetme"
+    },
+    {
+        "id": 211,
+        "why": "Kız Kaçırma"
+    },
+    {
+        "id": 212,
+        "why": "Terketme"
+    },
+    {
+        "id": 213,
+        "why": "Reddetme, Taciz"
+    },
+    {
+        "id": 214,
+        "why": "Cinsel İlişkiyi Reddetme"
+    },
+    {
+        "id": 215,
+        "why": "Düğünün Ertelenmesi"
+    },
+    {
+        "id": 216,
+        "why": "Yetiştirme Yurdundan Kaçtığı İçin"
+    },
+    {
+        "id": 217,
+        "why": "Kızını Korumak İsterken"
+    },
+    {
+        "id": 218,
+        "why": "Akrablalarını Korurken"
+    },
+    {
+        "id": 219,
+        "why": "Sebebsiz"
+    },
+    {
+        "id": 220,
+        "why": "Şiddet Görme"
+    },
+    {
+        "id": 221,
+        "why": "Nişan Bozma"
+    },
+    {
+        "id": 222,
+        "why": "Kızını Korumak İsterken"
+    },
+    {
+        "id": 223,
+        "why": "Platonik Aşk"
+    },
+    {
+        "id": 224,
+        "why": "Bebek Ağladığı İçin"
+    },
+    {
+        "id": 225,
+        "why": "Tecavüze Direnme"
+    },
+    {
+        "id": 226,
+        "why": "Tecavüze Direndiği İçin"
+    },
+    {
+        "id": 227,
+        "why": "Annelerini Korumaya Çalışırken"
+    },
+    {
+        "id": 228,
+        "why": "Terk Edilme"
+    },
+    {
+        "id": 229,
+        "why": "Dedikodu"
+    },
+    {
+        "id": 230,
+        "why": "Alacak Verecek Meselesi"
+    },
+    {
+        "id": 231,
+        "why": "Başka bir adamla evlenmesi"
+    },
+    {
+        "id": 232,
+        "why": "Barışma Talebini Geri Çevirme"
+    },
+    {
+        "id": 233,
+        "why": "Ayrılma, Tartışma"
+    },
+    {
+        "id": 234,
+        "why": "Kızını Korumaya Çalışırken"
+    },
+    {
+        "id": 235,
+        "why": "Tespit Edilemeyen-"
+    },
+    {
+        "id": 236,
+        "why": "Kavgayı Önleme Çalışma"
+    },
+    {
+        "id": 237,
+        "why": "Töre"
+    },
+    {
+        "id": 238,
+        "why": "Kızını korurken"
+    },
+    {
+        "id": 239,
+        "why": "Evlenme Teklifini Reddetme"
+    },
+    {
+        "id": 240,
+        "why": "Evlenme Talebini Reddetme"
+    },
+    {
+        "id": 241,
+        "why": "Bakire Olmaması"
+    },
+    {
+        "id": 242,
+        "why": "Barışmak Istememesi"
+    },
+    {
+        "id": 243,
+        "why": "Kardeşini Korurken"
+    },
+    {
+        "id": 244,
+        "why": "Evlenme Talebi"
+    },
+    {
+        "id": 245,
+        "why": "Akrabasını Kocasınan Korurken"
+    },
+    {
+        "id": 246,
+        "why": "Velayet"
+    },
+    {
+        "id": 247,
+        "why": "Kızını korumak istemesi"
+    },
+    {
+        "id": 248,
+        "why": "Aşkına Cevap Alamaması"
+    },
+    {
+        "id": 249,
+        "why": "Evlilik dışı hamilelik"
+    },
+    {
+        "id": 250,
+        "why": "Evi Terk Etmesi"
+    },
+    {
+        "id": 251,
+        "why": "Red Edilme"
+    },
+    {
+        "id": 252,
+        "why": "Sofra Kurmadığı İçin"
+    },
+    {
+        "id": 253,
+        "why": "İliskide Geçimsizlik"
+    },
+    {
+        "id": 254,
+        "why": "Erkek arkadaşından gelen mesaj"
+    },
+    {
+        "id": 255,
+        "why": "Tartışma/Kıskançlık"
+    },
+    {
+        "id": 256,
+        "why": "Panik"
+    },
+    {
+        "id": 257,
+        "why": "Kızının Boşanması/Kızını korurken"
+    },
+    {
+        "id": 258,
+        "why": "Nişan Atma"
+    },
+    {
+        "id": 259,
+        "why": "Aldattığı düşünüldüğü için"
+    },
+    {
+        "id": 260,
+        "why": "Boşanmak İstemesi"
+    },
+    {
+        "id": 261,
+        "why": "İlişkisinin ortaya çıkması"
+    },
+    {
+        "id": 262,
+        "why": "Tespit Edilemeyenr"
+    },
+    {
+        "id": 263,
+        "why": "Ayrılmak istediği için"
+    },
+    {
+        "id": 264,
+        "why": "Kızını korumaya çalırken"
+    },
+    {
+        "id": 265,
+        "why": "Ayrılmak istemesi"
+    },
+    {
+        "id": 266,
+        "why": "Boşanmak istediği için"
+    },
+    {
+        "id": 267,
+        "why": "Başka erkekle konuştuğu için"
+    },
+    {
+        "id": 268,
+        "why": "Namus cinayeti"
+    },
+    {
+        "id": 269,
+        "why": "Arkadaşlik teklifini red ettiği için"
+    },
+    {
+        "id": 270,
+        "why": "Şiddet"
+    },
+    {
+        "id": 271,
+        "why": "Rüyasında soyunduğunu gördüğü için"
+    },
+    {
+        "id": 272,
+        "why": "Tecavüzcüsüne direndiği için"
+    },
+    {
+        "id": 273,
+        "why": "Boşanmış olması"
+    },
+    {
+        "id": 274,
+        "why": "Şiddetli geçimsizlik"
+    },
+    {
+        "id": 275,
+        "why": "Kazandığı parayı vermediği için"
+    },
+    {
+        "id": 276,
+        "why": "Karşılıksız Aşk"
+    },
+    {
+        "id": 277,
+        "why": "Tartısma"
+    },
+    {
+        "id": 278,
+        "why": "Evi Terkettiği için"
+    },
+    {
+        "id": 279,
+        "why": "Red ettiği için"
+    },
+    {
+        "id": 280,
+        "why": "Kadının Kendi Hayatına Dair Karar Vermek İstemesi"
+    },
+    {
+        "id": 281,
+        "why": "Kızını damadından korumaya çalışırken"
+    },
+    {
+        "id": 282,
+        "why": "Boşanmak istemesi"
+    },
+    {
+        "id": 283,
+        "why": "Red edilince"
+    },
+    {
+        "id": 284,
+        "why": "Tespit EdilemeyenBilinmiyor"
+    },
+    {
+        "id": 285,
+        "why": "Evlilik teklifini red edince"
+    },
+    {
+        "id": 286,
+        "why": "Boşanmak istiyor"
+    },
+    {
+        "id": 287,
+        "why": "Barışma isteğini red ettiği için."
+    },
+    {
+        "id": 288,
+        "why": "Annesinin başka erkeklerle görüştüğünü düşündüğü için"
+    },
+    {
+        "id": 289,
+        "why": "şNamus"
+    },
+    {
+        "id": 290,
+        "why": "Töre, Namus"
+    },
+    {
+        "id": 291,
+        "why": "Tecavüz, Töre"
+    },
+    {
+        "id": 292,
+        "why": "Kaçırılma"
+    },
+    {
+        "id": 293,
+        "why": "Şiddetli Geçimsizlik"
+    },
+    {
+        "id": 294,
+        "why": "Arkadaşlık eklifine red edince"
+    },
+    {
+        "id": 295,
+        "why": "Nişanlısından ayrılmak istemesi"
+    },
+    {
+        "id": 296,
+        "why": "Sinir"
+    },
+    {
+        "id": 297,
+        "why": "Arkadaşlık teklifine red edince"
+    },
+    {
+        "id": 298,
+        "why": "Kadının kendi hayatına karar vermek istemesi"
+    },
+    {
+        "id": 299,
+        "why": "Boşanmayı Hazmedememe"
+    },
+    {
+        "id": 300,
+        "why": "Ayrılmayı Hazmedememe"
+    },
+    {
+        "id": 301,
+        "why": "Boşanma Talebi, Ayrı Yaşama"
+    },
+    {
+        "id": 302,
+        "why": "Kendi Hayatına Dair Karar Verdiği İçin"
+    },
+    {
+        "id": 303,
+        "why": "Başka Bir Kadını Korumak İçin"
+    },
+    {
+        "id": 304,
+        "why": "İntihar Süsü"
+    },
+    {
+        "id": 305,
+        "why": "Kriz"
+    },
+    {
+        "id": 306,
+        "why": "Kıskançlık, Barışma Talebi"
+    },
+    {
+        "id": 307,
+        "why": "Çocuğunun Hayatına Dair Karar Verdiği İçin"
+    },
+    {
+        "id": 308,
+        "why": "Aile Meclisi Kararı"
+    },
+    {
+        "id": 309,
+        "why": "Kadın hayatına dair bir karar vermek istediği için"
+    },
+    {
+        "id": 310,
+        "why": "Kriz ve İşsizlik"
+    },
+    {
+        "id": 311,
+        "why": "Ayrılık"
+    },
+    {
+        "id": 312,
+        "why": "Şiddet görüp evden kaçtığı için"
+    },
+    {
+        "id": 313,
+        "why": "Namus - Tecavüz"
+    },
+    {
+        "id": 314,
+        "why": "Erkeğin istediği bir şeyin gerçekleşmemesi sebebiyle"
+    },
+    {
+        "id": 315,
+        "why": "Kocası"
+    },
+    {
+        "id": 316,
+        "why": "Seri Cinayet"
+    },
+    {
+        "id": 317,
+        "why": "Anlaşmazlık"
+    },
+    {
+        "id": 318,
+        "why": "kıskançlık"
+    },
+    {
+        "id": 319,
+        "why": "boşanma"
+    },
+    {
+        "id": 320,
+        "why": "Tartışma, Kendi hayatına karar verme"
+    },
+    {
+        "id": 321,
+        "why": "Barışmayı Reddetme"
+    },
+    {
+        "id": 322,
+        "why": "Sevgilisinin Olması"
+    },
+    {
+        "id": 323,
+        "why": "Tecavüze uğrayıp katledildi"
+    },
+    {
+        "id": 324,
+        "why": "Çete Davası"
+    },
+    {
+        "id": 325,
+        "why": "Şiddeti Reddetme"
+    },
+    {
+        "id": 326,
+        "why": "Para, tecavüz"
+    },
+    {
+        "id": 327,
+        "why": "Evi Terk Etme"
+    },
+    {
+        "id": 328,
+        "why": "para sebebi ile"
+    },
+    {
+        "id": 329,
+        "why": "Boşanmak isteme"
+    },
+    {
+        "id": 330,
+        "why": "Fuhuşu Reddetme"
+    },
+    {
+        "id": 331,
+        "why": "Cinsel saldırı"
+    },
+    {
+        "id": 332,
+        "why": "Madde bağımlılığı"
+    }
+]

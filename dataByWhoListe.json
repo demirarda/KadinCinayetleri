@@ -1,0 +1,886 @@
+[
+    {
+        "id": 1,
+        "byWho": "Eski Kocası"
+    },
+    {
+        "id": 2,
+        "byWho": "Kocası"
+    },
+    {
+        "id": 3,
+        "byWho": "Tanıdığı Birisi"
+    },
+    {
+        "id": 4,
+        "byWho": "Tanıdığı Birileri"
+    },
+    {
+        "id": 5,
+        "byWho": "Oğlu"
+    },
+    {
+        "id": 6,
+        "byWho": "Tespit Edilemeyen"
+    },
+    {
+        "id": 7,
+        "byWho": "Tanımadığı Birileri"
+    },
+    {
+        "id": 8,
+        "byWho": "Eniştesi"
+    },
+    {
+        "id": 9,
+        "byWho": "Akrabası"
+    },
+    {
+        "id": 10,
+        "byWho": "Eniltesi"
+    },
+    {
+        "id": 11,
+        "byWho": "Dini Nikahlı Eşi"
+    },
+    {
+        "id": 12,
+        "byWho": "Babası"
+    },
+    {
+        "id": 13,
+        "byWho": "Sevgilisi"
+    },
+    {
+        "id": 14,
+        "byWho": "Amcasının Oğlu"
+    },
+    {
+        "id": 15,
+        "byWho": "Eski Sevgilisi"
+    },
+    {
+        "id": 16,
+        "byWho": "Arkadaşları"
+    },
+    {
+        "id": 17,
+        "byWho": "Damadı"
+    },
+    {
+        "id": 18,
+        "byWho": "Kardeşi"
+    },
+    {
+        "id": 19,
+        "byWho": "Kocasının kardeşinin oğlu"
+    },
+    {
+        "id": 20,
+        "byWho": "Kayınbiraderi"
+    },
+    {
+        "id": 21,
+        "byWho": "Eski Kayınpederi"
+    },
+    {
+        "id": 22,
+        "byWho": "Tanımadığı Birisi"
+    },
+    {
+        "id": 23,
+        "byWho": "Kocası, Oğlu"
+    },
+    {
+        "id": 24,
+        "byWho": "Eski Nişanlısı"
+    },
+    {
+        "id": 25,
+        "byWho": "Tespİt Edilemeyen"
+    },
+    {
+        "id": 26,
+        "byWho": "Kocasının Kardeşi"
+    },
+    {
+        "id": 27,
+        "byWho": "Kocacı"
+    },
+    {
+        "id": 28,
+        "byWho": "Nişanlısı"
+    },
+    {
+        "id": 29,
+        "byWho": "Kayınpederi"
+    },
+    {
+        "id": 30,
+        "byWho": "Kocasının Akrabası"
+    },
+    {
+        "id": 31,
+        "byWho": "Tespi Edilemeyen"
+    },
+    {
+        "id": 32,
+        "byWho": "Erkek Arkadaşı"
+    },
+    {
+        "id": 33,
+        "byWho": "Üvey Abisi"
+    },
+    {
+        "id": 34,
+        "byWho": "Sevgilisinin Kardeşi"
+    },
+    {
+        "id": 35,
+        "byWho": "Kızını Korurken"
+    },
+    {
+        "id": 36,
+        "byWho": "Erkek Kardeşi"
+    },
+    {
+        "id": 37,
+        "byWho": "Dayısı"
+    },
+    {
+        "id": 38,
+        "byWho": "Tespit Edilmeyen"
+    },
+    {
+        "id": 39,
+        "byWho": "Sevgilisinin Oğlu"
+    },
+    {
+        "id": 40,
+        "byWho": "Tanıdığı Birisi"
+    },
+    {
+        "id": 41,
+        "byWho": "Arkadaşı"
+    },
+    {
+        "id": 42,
+        "byWho": "Üvey Babası"
+    },
+    {
+        "id": 43,
+        "byWho": "Eniştesinin Yeğeni"
+    },
+    {
+        "id": 44,
+        "byWho": "Dini Nikahlı Kocası"
+    },
+    {
+        "id": 45,
+        "byWho": "Kızkardeşinin Kocası"
+    },
+    {
+        "id": 46,
+        "byWho": "Dedesi"
+    },
+    {
+        "id": 47,
+        "byWho": "Tespit edilemeyen"
+    },
+    {
+        "id": 48,
+        "byWho": "Torunu"
+    },
+    {
+        "id": 49,
+        "byWho": "Abisi"
+    },
+    {
+        "id": 50,
+        "byWho": "Yeğeni"
+    },
+    {
+        "id": 51,
+        "byWho": "Eski Damadı"
+    },
+    {
+        "id": 52,
+        "byWho": "Tanımadığı Biri"
+    },
+    {
+        "id": 53,
+        "byWho": "Kocası ve Kocasının ailesi"
+    },
+    {
+        "id": 54,
+        "byWho": "Tanımadığı BIrileri"
+    },
+    {
+        "id": 55,
+        "byWho": "Annesinin Sevgilisi ve Annesi"
+    },
+    {
+        "id": 56,
+        "byWho": "Abisi, Akrabaları"
+    },
+    {
+        "id": 57,
+        "byWho": "Aile üyeleri"
+    },
+    {
+        "id": 58,
+        "byWho": "Dini Nikahlı E\u0013şi"
+    },
+    {
+        "id": 59,
+        "byWho": "Eşi ve kayınbiraderi"
+    },
+    {
+        "id": 60,
+        "byWho": "İş Arkadaşı"
+    },
+    {
+        "id": 61,
+        "byWho": "Kocasının Kardeşleri"
+    },
+    {
+        "id": 62,
+        "byWho": "İmam Nikahlı Eşi"
+    },
+    {
+        "id": 63,
+        "byWho": "Amcası"
+    },
+    {
+        "id": 64,
+        "byWho": "Arkadaşının Oğlu"
+    },
+    {
+        "id": 65,
+        "byWho": "Abisi, Yengesi"
+    },
+    {
+        "id": 66,
+        "byWho": "Tanımadığı Birisi"
+    },
+    {
+        "id": 67,
+        "byWho": "Tespit Edielmeyen"
+    },
+    {
+        "id": 68,
+        "byWho": "Ailesi"
+    },
+    {
+        "id": 69,
+        "byWho": "Annesinin Eski Kocası"
+    },
+    {
+        "id": 70,
+        "byWho": "Eski Kocası, Eski Kocasının Arkadaşı"
+    },
+    {
+        "id": 71,
+        "byWho": "Yeğeni, Dayısı"
+    },
+    {
+        "id": 72,
+        "byWho": "Kızının Nişanlısı"
+    },
+    {
+        "id": 73,
+        "byWho": "Dini Nihahlı Eşi"
+    },
+    {
+        "id": 74,
+        "byWho": "Tanımadığı Birileri"
+    },
+    {
+        "id": 75,
+        "byWho": "Tanıdıği Birileri"
+    },
+    {
+        "id": 76,
+        "byWho": "Tanıdığı Birileri"
+    },
+    {
+        "id": 77,
+        "byWho": "Gelininin Babası"
+    },
+    {
+        "id": 78,
+        "byWho": "Tecavüz sonucu intihar"
+    },
+    {
+        "id": 79,
+        "byWho": "Sevgililsi"
+    },
+    {
+        "id": 80,
+        "byWho": "Tanımadıği Birisi"
+    },
+    {
+        "id": 81,
+        "byWho": "Eski Kocası, Kocasının oğulları"
+    },
+    {
+        "id": 82,
+        "byWho": "Komşusu"
+    },
+    {
+        "id": 83,
+        "byWho": "Eski Dini Nikahlı Eşi"
+    },
+    {
+        "id": 84,
+        "byWho": "Beraber Yaşadığı Kişi"
+    },
+    {
+        "id": 85,
+        "byWho": "Tespit Edilemyen"
+    },
+    {
+        "id": 86,
+        "byWho": "Ailesinin Tanıdıkları"
+    },
+    {
+        "id": 87,
+        "byWho": "Kocasının kardeşi"
+    },
+    {
+        "id": 88,
+        "byWho": "Kuzeni"
+    },
+    {
+        "id": 89,
+        "byWho": "Babasi"
+    },
+    {
+        "id": 90,
+        "byWho": "Tanıdığı BIrisi"
+    },
+    {
+        "id": 91,
+        "byWho": "Kocası, Tanıdığı Birisi"
+    },
+    {
+        "id": 92,
+        "byWho": "Tespit Edilemeyem"
+    },
+    {
+        "id": 93,
+        "byWho": "Eşi, Tanıdığı Birileri"
+    },
+    {
+        "id": 94,
+        "byWho": "Kayınbiraderi, Kocası"
+    },
+    {
+        "id": 95,
+        "byWho": "Tanımadığı Biri"
+    },
+    {
+        "id": 96,
+        "byWho": "Kız kardeşinin eski kocası"
+    },
+    {
+        "id": 97,
+        "byWho": "Tespit Edlemeyen"
+    },
+    {
+        "id": 98,
+        "byWho": "Oğlu, Kocası"
+    },
+    {
+        "id": 99,
+        "byWho": "Kızının kocasının akrabaları"
+    },
+    {
+        "id": 100,
+        "byWho": "Kiralık katil"
+    },
+    {
+        "id": 101,
+        "byWho": "Oğlu ve Gelini"
+    },
+    {
+        "id": 102,
+        "byWho": "Eski Sevgilsi"
+    },
+    {
+        "id": 103,
+        "byWho": "Kızının Eski Sevgilisi"
+    },
+    {
+        "id": 104,
+        "byWho": "Kız kardeşinin kocası"
+    },
+    {
+        "id": 105,
+        "byWho": "Sevgilsi"
+    },
+    {
+        "id": 106,
+        "byWho": "Kocası, Tanıdığı Birileri"
+    },
+    {
+        "id": 107,
+        "byWho": "Kardeşi, Arkadaşı"
+    },
+    {
+        "id": 108,
+        "byWho": "Üvey Oğlu"
+    },
+    {
+        "id": 109,
+        "byWho": "Babası, Abisi"
+    },
+    {
+        "id": 110,
+        "byWho": "Tespite Edilemeyen"
+    },
+    {
+        "id": 111,
+        "byWho": "Kocasi"
+    },
+    {
+        "id": 112,
+        "byWho": "Amcası, Akrabaları"
+    },
+    {
+        "id": 113,
+        "byWho": "Üvey abisi, annesi"
+    },
+    {
+        "id": 114,
+        "byWho": "Tanımadığı BIrisi"
+    },
+    {
+        "id": 115,
+        "byWho": "Annesinin Eski Sevgilisi"
+    },
+    {
+        "id": 116,
+        "byWho": "Bilinmiyor"
+    },
+    {
+        "id": 117,
+        "byWho": "Kenidisi"
+    },
+    {
+        "id": 118,
+        "byWho": "Tanıdıği Birisi"
+    },
+    {
+        "id": 119,
+        "byWho": "Tanıdığı Biri"
+    },
+    {
+        "id": 120,
+        "byWho": "Biinmiyor"
+    },
+    {
+        "id": 121,
+        "byWho": "Akraba"
+    },
+    {
+        "id": 122,
+        "byWho": "Oğlu, Kardeşi"
+    },
+    {
+        "id": 123,
+        "byWho": "Çocukları"
+    },
+    {
+        "id": 124,
+        "byWho": "Eski Sevgili"
+    },
+    {
+        "id": 125,
+        "byWho": "Karısı"
+    },
+    {
+        "id": 126,
+        "byWho": "Abileri"
+    },
+    {
+        "id": 127,
+        "byWho": "Tanıdıkları Biri"
+    },
+    {
+        "id": 128,
+        "byWho": "Abisi, Eniştesi"
+    },
+    {
+        "id": 129,
+        "byWho": "Üvey oğlu"
+    },
+    {
+        "id": 130,
+        "byWho": "Ablasının Kocası"
+    },
+    {
+        "id": 131,
+        "byWho": "Sevgilsi, Tanıdığı Birileri"
+    },
+    {
+        "id": 132,
+        "byWho": "Evey Oğlu"
+    },
+    {
+        "id": 133,
+        "byWho": "Tanıdığı Birisi, Arkadaşı"
+    },
+    {
+        "id": 134,
+        "byWho": "Torunları"
+    },
+    {
+        "id": 135,
+        "byWho": "Babası ve Erkek Kardeşi"
+    },
+    {
+        "id": 136,
+        "byWho": "Tanımadığı birisi"
+    },
+    {
+        "id": 137,
+        "byWho": "Erkek Kardeşi, Babası"
+    },
+    {
+        "id": 138,
+        "byWho": "Abisi, Babası"
+    },
+    {
+        "id": 139,
+        "byWho": "Kardeşi, Babası"
+    },
+    {
+        "id": 140,
+        "byWho": "Yeğeninin Kocası"
+    },
+    {
+        "id": 141,
+        "byWho": "Kocasının Yeğeni"
+    },
+    {
+        "id": 142,
+        "byWho": "Arkadaşının Kocası"
+    },
+    {
+        "id": 143,
+        "byWho": "Eski Koca"
+    },
+    {
+        "id": 144,
+        "byWho": "Tanımadığı Birisi/ Polis"
+    },
+    {
+        "id": 145,
+        "byWho": "Eskİ Kocası"
+    },
+    {
+        "id": 146,
+        "byWho": "Sevilisi"
+    },
+    {
+        "id": 147,
+        "byWho": "Eski Enişte"
+    },
+    {
+        "id": 148,
+        "byWho": "Kızının Sevgilisi"
+    },
+    {
+        "id": 149,
+        "byWho": "Eski Kayınbiraderi"
+    },
+    {
+        "id": 150,
+        "byWho": "Eşi ve Kayınbiraderi"
+    },
+    {
+        "id": 151,
+        "byWho": "Eşinin Kardeşi"
+    },
+    {
+        "id": 152,
+        "byWho": "Baba, Oğul"
+    },
+    {
+        "id": 153,
+        "byWho": "Üvey Annesi"
+    },
+    {
+        "id": 154,
+        "byWho": "Damadının Kardeşi"
+    },
+    {
+        "id": 155,
+        "byWho": "Annesi"
+    },
+    {
+        "id": 156,
+        "byWho": "Sevgilisinin Arkadaşı"
+    },
+    {
+        "id": 157,
+        "byWho": "Annesinin Sevgilisi"
+    },
+    {
+        "id": 158,
+        "byWho": "Aile Meclisi"
+    },
+    {
+        "id": 159,
+        "byWho": "Eskİ Sevgilisi"
+    },
+    {
+        "id": 160,
+        "byWho": "Kardeşinin Eşi"
+    },
+    {
+        "id": 161,
+        "byWho": "Kızının Kocası"
+    },
+    {
+        "id": 162,
+        "byWho": "Kocası (nikahsız)"
+    },
+    {
+        "id": 163,
+        "byWho": "Eski Kocasının Kardeşi"
+    },
+    {
+        "id": 164,
+        "byWho": "Kocasının Erkek Kardeşi"
+    },
+    {
+        "id": 165,
+        "byWho": "Amca çocukları"
+    },
+    {
+        "id": 166,
+        "byWho": "Torunu, Akrabaları"
+    },
+    {
+        "id": 167,
+        "byWho": "Eski Erkek Arkadaşı"
+    },
+    {
+        "id": 168,
+        "byWho": "Arkadaşi"
+    },
+    {
+        "id": 169,
+        "byWho": "Eski Sözlüsü"
+    },
+    {
+        "id": 170,
+        "byWho": "Babası/Abisi"
+    },
+    {
+        "id": 171,
+        "byWho": "Sevgilisi, Tanıdığı Birileri"
+    },
+    {
+        "id": 172,
+        "byWho": "Dini Nikahlı Kocası"
+    },
+    {
+        "id": 173,
+        "byWho": "Kızının kocası"
+    },
+    {
+        "id": 174,
+        "byWho": "Tanıdığı birisi"
+    },
+    {
+        "id": 175,
+        "byWho": "Eski eşi"
+    },
+    {
+        "id": 176,
+        "byWho": "Tanıdığı birisi"
+    },
+    {
+        "id": 177,
+        "byWho": "Kocası, Kayınpederi"
+    },
+    {
+        "id": 178,
+        "byWho": "Eski sevgilisi"
+    },
+    {
+        "id": 179,
+        "byWho": "Arkadaşının Eski Sevgilsi"
+    },
+    {
+        "id": 180,
+        "byWho": "Babası Tuttuğu Azmettici"
+    },
+    {
+        "id": 181,
+        "byWho": "Eski Kocası Azmettirci"
+    },
+    {
+        "id": 182,
+        "byWho": "Tanıdığı biri"
+    },
+    {
+        "id": 183,
+        "byWho": "Kayıpederi"
+    },
+    {
+        "id": 184,
+        "byWho": "Terk ettiği kocası"
+    },
+    {
+        "id": 185,
+        "byWho": "Eski Kayınpeder"
+    },
+    {
+        "id": 186,
+        "byWho": "Şüpheli Ölüm"
+    },
+    {
+        "id": 187,
+        "byWho": "Aile Meclisi Kararı"
+    },
+    {
+        "id": 188,
+        "byWho": "Sevgilisi - Sevgilisinin Abisi"
+    },
+    {
+        "id": 189,
+        "byWho": "Akraba - Kocasının"
+    },
+    {
+        "id": 190,
+        "byWho": "Kocası - Akrabaları"
+    },
+    {
+        "id": 191,
+        "byWho": "Kayınpederi ve Kayınbiraderi"
+    },
+    {
+        "id": 192,
+        "byWho": "Aile Meclisi - Erkek Kardeşi-Baba"
+    },
+    {
+        "id": 193,
+        "byWho": "Aile Meclisi - Eşi"
+    },
+    {
+        "id": 194,
+        "byWho": "Sevgilisi - Polis"
+    },
+    {
+        "id": 195,
+        "byWho": "Patron - Sevgili"
+    },
+    {
+        "id": 196,
+        "byWho": "Patron"
+    },
+    {
+        "id": 197,
+        "byWho": "2 Arkadaşı"
+    },
+    {
+        "id": 198,
+        "byWho": "Evlenmek İsteyen Şahıs"
+    },
+    {
+        "id": 199,
+        "byWho": "İş Ortağı"
+    },
+    {
+        "id": 200,
+        "byWho": "Aile Meclisi - Erkek Kardeşi"
+    },
+    {
+        "id": 201,
+        "byWho": "Aile Meclisi - Eski Eş"
+    },
+    {
+        "id": 202,
+        "byWho": "Aile meclisi- Babası ve Erkek Kardeşi"
+    },
+    {
+        "id": 203,
+        "byWho": "Aile Meclisi - Babası"
+    },
+    {
+        "id": 204,
+        "byWho": "Seri Katil - 3 Kadın ölümü"
+    },
+    {
+        "id": 205,
+        "byWho": "Kardeşinin Eski Kocası"
+    },
+    {
+        "id": 206,
+        "byWho": "sevgilisi"
+    },
+    {
+        "id": 207,
+        "byWho": "babası"
+    },
+    {
+        "id": 208,
+        "byWho": "Sevgilisi, Akrabası"
+    },
+    {
+        "id": 209,
+        "byWho": "Aile Meclisi - Bilinmiyor"
+    },
+    {
+        "id": 210,
+        "byWho": "Tanımadığı biri"
+    },
+    {
+        "id": 211,
+        "byWho": "Para karşılığında cinsel ilişkiye zorlandığı adam tarafından"
+    },
+    {
+        "id": 212,
+        "byWho": "Kayıpederi, Kocası,Kayınbiraderi"
+    },
+    {
+        "id": 213,
+        "byWho": "Akrabaları"
+    },
+    {
+        "id": 214,
+        "byWho": "Kocası ve erkek kardeşleri"
+    },
+    {
+        "id": 215,
+        "byWho": "Dini nikahlı kocası"
+    },
+    {
+        "id": 216,
+        "byWho": "Sevgilisi ve arkadaşları"
+    },
+    {
+        "id": 217,
+        "byWho": "Yengesi, amcası ve amcasının oğlu"
+    },
+    {
+        "id": 218,
+        "byWho": "İntihar"
+    },
+    {
+        "id": 219,
+        "byWho": "Kızının sevgilisi"
+    },
+    {
+        "id": 220,
+        "byWho": "Ağabeyi"
+    },
+    {
+        "id": 221,
+        "byWho": "Üvey baba"
+    }
+]

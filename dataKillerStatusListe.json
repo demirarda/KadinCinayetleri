@@ -1,0 +1,214 @@
+[
+    {
+        "id": 1,
+        "killerStatus": "Tutuklu"
+    },
+    {
+        "id": 2,
+        "killerStatus": "İntihar"
+    },
+    {
+        "id": 3,
+        "killerStatus": "Tespit Edilemeyen"
+    },
+    {
+        "id": 4,
+        "killerStatus": "Aranıyor"
+    },
+    {
+        "id": 5,
+        "killerStatus": "İntihara Teşebbüs"
+    },
+    {
+        "id": 6,
+        "killerStatus": "Soruşturma Sürüyor"
+    },
+    {
+        "id": 7,
+        "killerStatus": "İntihar Teşebbüsü"
+    },
+    {
+        "id": 8,
+        "killerStatus": "İnthihara Teşebbüs"
+    },
+    {
+        "id": 9,
+        "killerStatus": "Tespi Edilemeyen"
+    },
+    {
+        "id": 10,
+        "killerStatus": "Soruşturma Sürüyo"
+    },
+    {
+        "id": 11,
+        "killerStatus": "Tutuklu Değik"
+    },
+    {
+        "id": 12,
+        "killerStatus": "Polis Çatışmasına Öldü"
+    },
+    {
+        "id": 13,
+        "killerStatus": "Öldü"
+    },
+    {
+        "id": 14,
+        "killerStatus": "Soruşturma Devam Ediyor"
+    },
+    {
+        "id": 15,
+        "killerStatus": "Tespit Edielemeyen"
+    },
+    {
+        "id": 16,
+        "killerStatus": "Tespit Edilmeyen"
+    },
+    {
+        "id": 17,
+        "killerStatus": "Dava Sürüyor"
+    },
+    {
+        "id": 18,
+        "killerStatus": "Tespite Edilemeye"
+    },
+    {
+        "id": 19,
+        "killerStatus": "Tespit Edilmeyem"
+    },
+    {
+        "id": 20,
+        "killerStatus": "Tutuklul"
+    },
+    {
+        "id": 21,
+        "killerStatus": "-"
+    },
+    {
+        "id": 22,
+        "killerStatus": "Serbest"
+    },
+    {
+        "id": 23,
+        "killerStatus": "Bilinmiyor"
+    },
+    {
+        "id": 24,
+        "killerStatus": "Soruşturma"
+    },
+    {
+        "id": 25,
+        "killerStatus": "Otopsi"
+    },
+    {
+        "id": 26,
+        "killerStatus": "Tutuku"
+    },
+    {
+        "id": 27,
+        "killerStatus": "Gözetim Altında"
+    },
+    {
+        "id": 28,
+        "killerStatus": "Kaçak"
+    },
+    {
+        "id": 29,
+        "killerStatus": "İntihar/Tutuklu"
+    },
+    {
+        "id": 30,
+        "killerStatus": "İntihar, Tutuklu"
+    },
+    {
+        "id": 31,
+        "killerStatus": "Firarı"
+    },
+    {
+        "id": 32,
+        "killerStatus": "Gözaltı"
+    },
+    {
+        "id": 33,
+        "killerStatus": "Yakalama Kararı"
+    },
+    {
+        "id": 34,
+        "killerStatus": "Tutuklu, Aranıyor"
+    },
+    {
+        "id": 35,
+        "killerStatus": "Yok"
+    },
+    {
+        "id": 36,
+        "killerStatus": "Tutuklandı"
+    },
+    {
+        "id": 37,
+        "killerStatus": "http://www.milliyet.com.tr/katil-zanlisina-linc-girisimi--gundem-2015066/"
+    },
+    {
+        "id": 38,
+        "killerStatus": "İntihar Etti"
+    },
+    {
+        "id": 39,
+        "killerStatus": "İntihar etti."
+    },
+    {
+        "id": 40,
+        "killerStatus": "http://www.hurriyet.com.tr/gundem/27218529.asp"
+    },
+    {
+        "id": 41,
+        "killerStatus": "http://www.haberturk.com/gundem/haber/936616-abdli-esini-cocugunun-gozu-onunde-oldurdu"
+    },
+    {
+        "id": 42,
+        "killerStatus": "İntihar etti"
+    },
+    {
+        "id": 43,
+        "killerStatus": "Gözaltında"
+    },
+    {
+        "id": 44,
+        "killerStatus": "Teslim oldu"
+    },
+    {
+        "id": 45,
+        "killerStatus": "Intihar etti"
+    },
+    {
+        "id": 46,
+        "killerStatus": " "
+    },
+    {
+        "id": 47,
+        "killerStatus": "Teslim oldu,sonucu bilinmiyor"
+    },
+    {
+        "id": 48,
+        "killerStatus": "Yakalanamadı"
+    },
+    {
+        "id": 49,
+        "killerStatus": "Araştırılıyor"
+    },
+    {
+        "id": 50,
+        "killerStatus": "Yargılanıyor"
+    },
+    {
+        "id": 51,
+        "killerStatus": "İtiraf etti,sonucu bilinmiyor"
+    },
+    {
+        "id": 52,
+        "killerStatus": "Yakalandı"
+    },
+    {
+        "id": 53,
+        "killerStatus": "Tutuksuz Yargılanmak Üzere Serbest Bırakıldı"
+    }
+]
