@@ -35,20 +35,57 @@ const murderSchema = mongoose.Schema({
 },{collection: "murder"})
 const murder = mongoose.model("murder", murderSchema)
 
-app.get("/murderbycity/:city", (req,res) => {
+app.get("/murderbycity/:city/:page", (req,res) => {
     murder.find({city:req.params.city})
     .then((items)=>{
-        res.json(items)
+        const maxIndex = items.length-1;
+        const page = req.params.page;
+        if(page == 1 ){
+            if(maxIndex >= 20){
+                res.json(items.slice(0, 20));
+            }else{
+                res.json(items);
+            }
+        }else{
+            if(maxIndex >= 20*page){
+                res.json(items.slice(((page-1)*20)+1, 20*page));
+            }else{
+                if(maxIndex >= ((page-1)*20)+1){
+                    res.json(items.slice(((page-1)*20)+1, -1));
+                }else{
+                    res.json({error:"404 - No more page!"});
+                }
+            }
+        }
+        
     })
     .catch((err)=>{
         console.log(err)
     })
 })
 
-app.get("/murderall", (req,res) => {
+app.get("/murderall/:page", (req,res) => {
     murder.find({})
     .then((items)=>{
-        res.json(items)
+        const maxIndex = items.length-1;
+        const page = req.params.page;
+        if(page == 1 ){
+            if(maxIndex >= 20){
+                res.json(items.slice(0, 20));
+            }else{
+                res.json(items);
+            }
+        }else{
+            if(maxIndex >= 20*page){
+                res.json(items.slice(((page-1)*20)+1, 20*page));
+            }else{
+                if(maxIndex >= ((page-1)*20)+1){
+                    res.json(items.slice(((page-1)*20)+1, -1));
+                }else{
+                    res.json({error:"404 - No more page!"});
+                }
+            }
+        }
     })
     .catch((err)=>{
         console.log(err)

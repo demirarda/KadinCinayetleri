@@ -1,21 +1,16 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import cities from '../json/cities.json'
+import axios from 'axios';
+import { CircularProgress } from '@mui/material';
+import cities from '../../src/json/cities.json';
 
 const style = {
   position: 'absolute',
@@ -56,10 +51,51 @@ export default function ListLeft(props) {
   };
   const handleClose = () => setOpen(false);
 
+  const [sideData, setSideData] = React.useState([]);
+  const [isLoading, setIsLoading] = React.useState(false);
+  const [selectedCity, setSelectedCity] = React.useState(props.data);
+  const [pageNumber, setPageNumber] = React.useState(1)
+  const listRef = React.useRef(null);
+
+  const onScroll = e => {
+    if((e.target.scrollTop/(e.target.scrollHeight-e.target.clientHeight)*100) >= 95){
+      setPageNumber(pageNumber+1)
+    }
+  };
+
+  React.useEffect(()=>{
+    setSideData([])
+    setPageNumber(1)
+    setSelectedCity(props.data)
+  },[props.data])
+
+  React.useEffect(()=>{
+    setIsLoading(true)
+    if(selectedCity === ""){
+      axios
+      .get("http://localhost:4000/murderall/"+pageNumber)
+      .then(function (response) {
+        if(response.data.error == undefined){
+          setSideData(old => old.concat(response.data))
+        }
+      });
+    }else{
+      axios
+      .get("http://localhost:4000/murderbycity/"+selectedCity+"/"+pageNumber)
+      .then(function (response) {
+        if(response.data.error == undefined){
+          setSideData(old => old.concat(response.data))
+        }
+      });
+    }
+    //listRef.current.scrollTo(0,0);
+    setIsLoading(false)
+  },[selectedCity, pageNumber])
+
   return (
-    <Paper style={{maxHeight: '92vh', overflow: 'auto'}}>
+    <Paper ref={listRef} onScroll={onScroll} style={{height: '92vh', overflow: 'auto'}}>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-        {props.data.map((data, index)=>{
+        {sideData.map((data, index)=>{
           return(
             <ListItemButton onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
             <ListItemText
@@ -72,7 +108,7 @@ export default function ListLeft(props) {
                     variant="body2"
                     color="text.primary"
                   >
-                    {data.city}
+                    {cities.find(city => city.plate == data.city).name}
                   </Typography>
                   {" - "+data.date}
                 </React.Fragment>
@@ -81,6 +117,7 @@ export default function ListLeft(props) {
             </ListItemButton>
           )
         })}
+        <CircularProgress className={isLoading ? 'loading' : 'hideLoading'} />
       </List>
       <Modal
       aria-labelledby="spring-modal-title"
