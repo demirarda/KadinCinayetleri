@@ -14,12 +14,57 @@
   color: white;
 }
 
-g[id="turkiye"] > g[id="selected"] > path {
-  fill: orange !important;
+g[id="turkiye"] > g[selected="true"] > path {
+  fill: black !important;
 }
 
-g[id="turkiye"] > g[id="selected"] > path:hover {
-  fill: red !important;
+g[id="turkiye"] > g[data-count-class="1"] > path {
+  fill: #FFB3B2 !important;
+}
+g[id="turkiye"] > g[data-count-class="1"] > path:hover {
+  fill: lightblue !important;
+}
+
+g[id="turkiye"] > g[data-count-class="2"] > path {
+  fill: #ff9a9b !important;
+}
+g[id="turkiye"] > g[data-count-class="2"] > path:hover {
+  fill: lightblue !important;
+}
+
+g[id="turkiye"] > g[data-count-class="3"] > path {
+  fill: #ff817e !important;
+}
+g[id="turkiye"] > g[data-count-class="3"] > path:hover {
+  fill: lightblue !important;
+}
+
+g[id="turkiye"] > g[data-count-class="4"] > path {
+  fill: #ff6865 !important;
+}
+g[id="turkiye"] > g[data-count-class="4"] > path:hover {
+  fill: lightblue !important;
+}
+
+g[id="turkiye"] > g[data-count-class="5"] > path {
+  fill: #ff4f4b !important;
+}
+g[id="turkiye"] > g[data-count-class="5"] > path:hover {
+  fill: lightblue !important;
+}
+
+g[id="turkiye"] > g[data-count-class="6"] > path {
+  fill: #ff3632 !important;
+}
+g[id="turkiye"] > g[data-count-class="6"] > path:hover {
+  fill: lightblue !important;
+}
+
+g[id="turkiye"] > g[data-count-class="7"] > path {
+  fill: #900000 !important;
+}
+g[id="turkiye"] > g[data-count-class="7"] > path:hover {
+  fill: lightblue !important;
 }
 
 #svg-turkiye-haritasi-container {
