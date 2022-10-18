@@ -15,7 +15,7 @@ import Paper from '@mui/material/Paper';
 import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import data from '../json/data.json'
+import cities from '../json/cities.json'
 
 const style = {
   position: 'absolute',
@@ -29,7 +29,7 @@ const style = {
   p: 4,
 };
 
-export default function ListLeft() {
+export default function ListLeft(props) {
   const [open, setOpen] = React.useState(false);
   const [age, setAge] = React.useState("");
   const [city, setCity] = React.useState("");
@@ -59,7 +59,7 @@ export default function ListLeft() {
   return (
     <Paper style={{maxHeight: '92vh', overflow: 'auto'}}>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-        {data.map((data, index)=>{
+        {props.data.map((data, index)=>{
           return(
             <ListItemButton onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
             <ListItemText
