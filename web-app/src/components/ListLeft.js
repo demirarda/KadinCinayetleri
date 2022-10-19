@@ -75,7 +75,7 @@ export default function ListLeft(props) {
       axios
       .get("http://localhost:4000/murderall/"+pageNumber)
       .then(function (response) {
-        if(response.data.error == undefined){
+        if(response.data.error === undefined){
           setSideData(old => old.concat(response.data))
         }
       });
@@ -83,7 +83,7 @@ export default function ListLeft(props) {
       axios
       .get("http://localhost:4000/murderbycity/"+selectedCity+"/"+pageNumber)
       .then(function (response) {
-        if(response.data.error == undefined){
+        if(response.data.error === undefined){
           setSideData(old => old.concat(response.data))
         }
       });
@@ -108,7 +108,7 @@ export default function ListLeft(props) {
                     variant="body2"
                     color="text.primary"
                   >
-                    {cities.find(city => city.plate == data.city).name}
+                    {cities.find(city => city.plate === data.city).name}
                   </Typography>
                   {" - "+data.date}
                 </React.Fragment>

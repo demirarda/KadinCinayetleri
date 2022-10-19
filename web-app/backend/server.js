@@ -65,7 +65,7 @@ app.get("/murderbycity/:city/:page", (req,res) => {
 })
 
 app.get("/murderall/:page", (req,res) => {
-    murder.find({})
+    murder.find({city: { $ne: 0 }})
     .then((items)=>{
         const maxIndex = items.length-1;
         const page = req.params.page;
