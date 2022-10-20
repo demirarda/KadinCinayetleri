@@ -112,6 +112,7 @@ app.get("/murderbycity/:city/:page", (req,res) => {
 
 app.get("/murderall/:page", (req,res) => {
     murder.aggregate([
+        { "$match": {city: { $ne: 0 }} },
         { "$lookup":
             {
                "from": "whyKilled",
