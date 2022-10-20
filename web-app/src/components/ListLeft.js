@@ -41,11 +41,11 @@ export default function ListLeft(props) {
     setAge(data.age)
     setCity(data.city)
     setDate(data.date)
-    setWhy(data.why)
-    setByWho(data.byWho)
+    setWhy(data.why[0].why)
+    setByWho(data.byWho[0].byWho)
     setProtection(data.protection)
-    setHow(data.how)
-    setKillerStatus(data.killerStatus)
+    setHow(data.howKilled[0].howKilled)
+    setKillerStatus(data.killerStatus[0].killerStatus)
     setSource(data.source)
     setOpen(true)
   };
@@ -139,7 +139,7 @@ export default function ListLeft(props) {
           Yaşı: {age}
         </Typography>
         <Typography id="spring-modal-description" sx={{ mt: 2 }}>
-          Şehir: {city}
+          Şehir: {city ? cities.find(a => a.plate === city).name : ""}
         </Typography>
         <Typography id="spring-modal-description" sx={{ mt: 2 }}>
           Tarih: {date}
