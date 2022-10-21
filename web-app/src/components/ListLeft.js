@@ -53,71 +53,125 @@ export default function ListLeft(props) {
 
   const [sideData, setSideData] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(false);
+  const [hasMore, setHasMore] = React.useState(true);
   const [selectedCity, setSelectedCity] = React.useState(props.data);
   const [pageNumber, setPageNumber] = React.useState(1)
   const listRef = React.useRef(null);
+  const observer = React.useRef();
+  const lastMurderRef = React.useCallback(node =>{
+    if(isLoading || !hasMore) return;
+    if(observer.current) observer.current.disconnect();
+    observer.current = new IntersectionObserver(entries => {
+      if(entries[0].isIntersecting){
+        setPageNumber(pageNumber+1)
+      }
+    })
+    
+    if(node) observer.current.observe(node)
+  }, [isLoading]);
 
-  const onScroll = e => {
-    if((e.target.scrollTop/(e.target.scrollHeight-e.target.clientHeight)*100) >= 95){
-      setPageNumber(pageNumber+1)
-    }
-  };
+  
 
   React.useEffect(()=>{
     setSideData([])
     setPageNumber(1)
+    setHasMore(true)
     setSelectedCity(props.data)
   },[props.data])
 
   React.useEffect(()=>{
     setIsLoading(true)
     if(selectedCity === ""){
-      axios
-      .get("http://localhost:4000/murderall/"+pageNumber)
+      let cancel
+      axios({
+        method: 'GET',
+        url: 'http://localhost:4000/murderall/'+pageNumber,
+        cancelToken: new axios.CancelToken(c => cancel = c)
+      })
       .then(function (response) {
         if(response.data.error === undefined){
           setSideData(old => old.concat(response.data))
+          setIsLoading(false)
+          console.log(isLoading)
+        }else{
+          setHasMore(false)
+          setIsLoading(false)
         }
       });
+      return () => cancel()
+      
     }else{
-      axios
-      .get("http://localhost:4000/murderbycity/"+selectedCity+"/"+pageNumber)
+      let cancel
+      axios({
+        method: 'GET',
+        url: 'http://localhost:4000/murderbycity/'+selectedCity+"/"+pageNumber,
+        cancelToken: new axios.CancelToken(c => cancel = c)
+      })
       .then(function (response) {
         if(response.data.error === undefined){
           setSideData(old => old.concat(response.data))
+          setIsLoading(false)
+          console.log(isLoading)
+        }else{
+          setHasMore(false)
+          setIsLoading(false)
         }
       });
+      return () => cancel()
     }
-    //listRef.current.scrollTo(0,0);
-    setIsLoading(false)
+    
   },[selectedCity, pageNumber])
 
   return (
-    <Paper ref={listRef} onScroll={onScroll} style={{height: '92vh', overflow: 'auto'}}>
+    <Paper ref={listRef} style={{height: '92vh', overflow: 'auto'}}>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
         {sideData.map((data, index)=>{
-          return(
-            <ListItemButton onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
-            <ListItemText
-              primary={data.name}
-              secondary={
-                <React.Fragment>
-                  <Typography
-                    sx={{ display: 'inline' }}
-                    component="span"
-                    variant="body2"
-                    color="text.primary"
-                  >
-                    {cities.find(city => city.plate === data.city).name}
-                  </Typography>
-                  {" - "+data.date}
-                </React.Fragment>
-              }
-              />
-            </ListItemButton>
-          )
+          if(sideData.length === index + 1){
+            return(
+              <ListItemButton ref={lastMurderRef} onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
+              <ListItemText
+                primary={data.name}
+                secondary={
+                  <React.Fragment>
+                    <Typography
+                      sx={{ display: 'inline' }}
+                      component="span"
+                      variant="body2"
+                      color="text.primary"
+                    >
+                      {cities.find(city => city.plate === data.city).name}
+                    </Typography>
+                    {" - "+data.date}
+                  </React.Fragment>
+                }
+                />
+              </ListItemButton>
+            )
+          }else{
+            return(
+              <ListItemButton onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
+              <ListItemText
+                primary={data.name}
+                secondary={
+                  <React.Fragment>
+                    <Typography
+                      sx={{ display: 'inline' }}
+                      component="span"
+                      variant="body2"
+                      color="text.primary"
+                    >
+                      {cities.find(city => city.plate === data.city).name}
+                    </Typography>
+                    {" - "+data.date}
+                  </React.Fragment>
+                }
+                />
+              </ListItemButton>
+            )
+          }
+          
         })}
-        <CircularProgress className={isLoading ? 'loading' : 'hideLoading'} />
+        <CircularProgress className={isLoading ? '' : 'hideLoading'} />
       </List>
       <Modal
       aria-labelledby="spring-modal-title"
