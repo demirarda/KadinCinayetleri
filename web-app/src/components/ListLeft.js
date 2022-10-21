@@ -9,7 +9,7 @@ import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import axios from 'axios';
-import { CircularProgress } from '@mui/material';
+import { Button, CircularProgress } from '@mui/material';
 import cities from '../../src/json/cities.json';
 
 const style = {
@@ -41,11 +41,11 @@ export default function ListLeft(props) {
     setAge(data.age)
     setCity(data.city)
     setDate(data.date)
-    setWhy(data.why[0].why)
-    setByWho(data.byWho[0].byWho)
+    setWhy(data.why[0] ? data.why[0].why : "Bilinmiyor")
+    setByWho(data.byWho[0] ? data.byWho[0].byWho : "Bilinmiyor")
     setProtection(data.protection)
-    setHow(data.howKilled[0].howKilled)
-    setKillerStatus(data.killerStatus[0].killerStatus)
+    setHow(data.howKilled[0] ? data.howKilled[0].howKilled : "Bilinmiyor")
+    setKillerStatus(data.killerStatus[0] ? data.killerStatus[0].killerStatus:"Bilinmiyor") 
     setSource(data.source)
     setOpen(true)
   };
@@ -56,14 +56,13 @@ export default function ListLeft(props) {
   const [hasMore, setHasMore] = React.useState(true);
   const [selectedCity, setSelectedCity] = React.useState(props.data);
   const [pageNumber, setPageNumber] = React.useState(1)
-  const listRef = React.useRef(null);
   const observer = React.useRef();
   const lastMurderRef = React.useCallback(node =>{
     if(isLoading || !hasMore) return;
     if(observer.current) observer.current.disconnect();
     observer.current = new IntersectionObserver(entries => {
       if(entries[0].isIntersecting){
-        setPageNumber(pageNumber+1)
+        setPageNumber(p => p+1)
       }
     })
     
@@ -92,7 +91,6 @@ export default function ListLeft(props) {
         if(response.data.error === undefined){
           setSideData(old => old.concat(response.data))
           setIsLoading(false)
-          console.log(isLoading)
         }else{
           setHasMore(false)
           setIsLoading(false)
@@ -111,7 +109,6 @@ export default function ListLeft(props) {
         if(response.data.error === undefined){
           setSideData(old => old.concat(response.data))
           setIsLoading(false)
-          console.log(isLoading)
         }else{
           setHasMore(false)
           setIsLoading(false)
@@ -123,7 +120,7 @@ export default function ListLeft(props) {
   },[selectedCity, pageNumber])
 
   return (
-    <Paper ref={listRef} style={{height: '92vh', overflow: 'auto'}}>
+    <Paper style={{height: '92vh', overflow: 'auto'}}>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
         {sideData.map((data, index)=>{
           if(sideData.length === index + 1){
@@ -213,9 +210,7 @@ export default function ListLeft(props) {
         <Typography id="spring-modal-description" sx={{ mt: 2 }}>
           Katilin Durumu: {killerStatus}
         </Typography>
-        <Typography id="spring-modal-description" sx={{ mt: 2 }}>
-          Kaynak: {source}
-        </Typography>
+        <Button sx={{ mt: 1 }} onClick={()=>{window.open(source, '_blank');}} variant="outlined">Kaynak</Button>
       </Box>
     </Fade>
   </Modal>
