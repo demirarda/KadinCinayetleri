@@ -1,21 +1,16 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import cities from '../json/cities.json'
+import axios from 'axios';
+import { Button, CircularProgress } from '@mui/material';
+import cities from '../../src/json/cities.json';
 
 const style = {
   position: 'absolute',
@@ -46,41 +41,134 @@ export default function ListLeft(props) {
     setAge(data.age)
     setCity(data.city)
     setDate(data.date)
-    setWhy(data.why)
-    setByWho(data.byWho)
+    setWhy(data.why[0] ? data.why[0].why : "Bilinmiyor")
+    setByWho(data.byWho[0] ? data.byWho[0].byWho : "Bilinmiyor")
     setProtection(data.protection)
-    setHow(data.how)
-    setKillerStatus(data.killerStatus)
+    setHow(data.howKilled[0] ? data.howKilled[0].howKilled : "Bilinmiyor")
+    setKillerStatus(data.killerStatus[0] ? data.killerStatus[0].killerStatus:"Bilinmiyor") 
     setSource(data.source)
     setOpen(true)
   };
   const handleClose = () => setOpen(false);
 
+  const [sideData, setSideData] = React.useState([]);
+  const [isLoading, setIsLoading] = React.useState(false);
+  const [hasMore, setHasMore] = React.useState(true);
+  const [selectedCity, setSelectedCity] = React.useState(props.data);
+  const [pageNumber, setPageNumber] = React.useState(1)
+  const observer = React.useRef();
+  const lastMurderRef = React.useCallback(node =>{
+    if(isLoading || !hasMore) return;
+    if(observer.current) observer.current.disconnect();
+    observer.current = new IntersectionObserver(entries => {
+      if(entries[0].isIntersecting){
+        setPageNumber(p => p+1)
+      }
+    })
+    
+    if(node) observer.current.observe(node)
+  }, [isLoading]);
+
+  
+
+  React.useEffect(()=>{
+    setSideData([])
+    setPageNumber(1)
+    setHasMore(true)
+    setSelectedCity(props.data)
+  },[props.data])
+
+  React.useEffect(()=>{
+    setIsLoading(true)
+    if(selectedCity === ""){
+      let cancel
+      axios({
+        method: 'GET',
+        url: 'http://localhost:4000/murderall/'+pageNumber,
+        cancelToken: new axios.CancelToken(c => cancel = c)
+      })
+      .then(function (response) {
+        if(response.data.error === undefined){
+          setSideData(old => old.concat(response.data))
+          setIsLoading(false)
+        }else{
+          setHasMore(false)
+          setIsLoading(false)
+        }
+      });
+      return () => cancel()
+      
+    }else{
+      let cancel
+      axios({
+        method: 'GET',
+        url: 'http://localhost:4000/murderbycity/'+selectedCity+"/"+pageNumber,
+        cancelToken: new axios.CancelToken(c => cancel = c)
+      })
+      .then(function (response) {
+        if(response.data.error === undefined){
+          setSideData(old => old.concat(response.data))
+          setIsLoading(false)
+        }else{
+          setHasMore(false)
+          setIsLoading(false)
+        }
+      });
+      return () => cancel()
+    }
+    
+  },[selectedCity, pageNumber])
+
   return (
-    <Paper style={{maxHeight: '92vh', overflow: 'auto'}}>
+    <Paper style={{height: '92vh', overflow: 'auto'}}>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-        {props.data.map((data, index)=>{
-          return(
-            <ListItemButton onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
-            <ListItemText
-              primary={data.name}
-              secondary={
-                <React.Fragment>
-                  <Typography
-                    sx={{ display: 'inline' }}
-                    component="span"
-                    variant="body2"
-                    color="text.primary"
-                  >
-                    {data.city}
-                  </Typography>
-                  {" - "+data.date}
-                </React.Fragment>
-              }
-              />
-            </ListItemButton>
-          )
+        {sideData.map((data, index)=>{
+          if(sideData.length === index + 1){
+            return(
+              <ListItemButton ref={lastMurderRef} onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
+              <ListItemText
+                primary={data.name}
+                secondary={
+                  <React.Fragment>
+                    <Typography
+                      sx={{ display: 'inline' }}
+                      component="span"
+                      variant="body2"
+                      color="text.primary"
+                    >
+                      {cities.find(city => city.plate === data.city).name}
+                    </Typography>
+                    {" - "+data.date}
+                  </React.Fragment>
+                }
+                />
+              </ListItemButton>
+            )
+          }else{
+            return(
+              <ListItemButton onClick={()=>{handleOpen(data)}} key={index} alignItems="flex-start">
+              <ListItemText
+                primary={data.name}
+                secondary={
+                  <React.Fragment>
+                    <Typography
+                      sx={{ display: 'inline' }}
+                      component="span"
+                      variant="body2"
+                      color="text.primary"
+                    >
+                      {cities.find(city => city.plate === data.city).name}
+                    </Typography>
+                    {" - "+data.date}
+                  </React.Fragment>
+                }
+                />
+              </ListItemButton>
+            )
+          }
+          
         })}
+        <CircularProgress className={isLoading ? '' : 'hideLoading'} />
       </List>
       <Modal
       aria-labelledby="spring-modal-title"
@@ -102,7 +190,7 @@ export default function ListLeft(props) {
           Yaşı: {age}
         </Typography>
         <Typography id="spring-modal-description" sx={{ mt: 2 }}>
-          Şehir: {city}
+          Şehir: {city ? cities.find(a => a.plate === city).name : ""}
         </Typography>
         <Typography id="spring-modal-description" sx={{ mt: 2 }}>
           Tarih: {date}
@@ -122,9 +210,7 @@ export default function ListLeft(props) {
         <Typography id="spring-modal-description" sx={{ mt: 2 }}>
           Katilin Durumu: {killerStatus}
         </Typography>
-        <Typography id="spring-modal-description" sx={{ mt: 2 }}>
-          Kaynak: {source}
-        </Typography>
+        <Button sx={{ mt: 1 }} onClick={()=>{window.open(source, '_blank');}} variant="outlined">Kaynak</Button>
       </Box>
     </Fade>
   </Modal>

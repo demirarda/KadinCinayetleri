@@ -1,16 +1,14 @@
 
-import logo from './logo.svg';
 import './App.css';
 import AccountMenu from './components/Navbar';
 import TurkeyMap from 'turkey-map-react';
-import { Tooltip, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import ListLeft from './components/ListLeft';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function App() {
   const [cityCount, setCityCount] = useState([]);
-  const [sideData, setSideData] = useState([]);
   const [selectedCity, setSelectedCity] = useState("");
   useEffect(()=>{
     axios
@@ -20,29 +18,13 @@ function App() {
     });
   },[])
 
-  useEffect(()=>{
-    if(selectedCity === ""){
-      axios
-      .get("http://localhost:4000/murderall")
-      .then(function (response) {
-        setSideData(response.data)
-      });
-    }else{
-      axios
-      .get("http://localhost:4000/murderbycity/"+selectedCity)
-      .then(function (response) {
-        setSideData(response.data)
-      });
-    }
-  },[selectedCity])
-
   const handleClick = ({plateNumber}) => {
     setSelectedCity(plateNumber)
   };
 
   const renderCity = (cityComponent, city) => {
     for(var i in cityCount){
-      if(cityCount[i]._id == city.plateNumber){
+      if(cityCount[i]._id === city.plateNumber){
         if(cityCount[i].count <25){
           cityComponent.props['data-count-class'] = "1";
         }else if(25<=cityCount[i].count && cityCount[i].count<50){
@@ -73,7 +55,7 @@ function App() {
       </header>
       <Grid container>
         <Grid item xs={2}>
-          <ListLeft data={sideData}/>
+          <ListLeft data={selectedCity}/>
         </Grid>
         <Grid item xs={10}>
           <TurkeyMap showTooltip hoverable onClick={handleClick} cityWrapper={renderCity} viewBox={{top: 0, left: 0, width: 1050, height: 585}}></TurkeyMap>
